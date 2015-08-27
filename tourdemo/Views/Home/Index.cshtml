@@ -1,0 +1,57 @@
+﻿<link href="~/Scripts/hopscotch/hopscotch.css" rel="stylesheet" />
+<script src="~/Scripts/hopscotch/hopscotch.js"></script>
+
+    <script type="text/javascript">
+    $(document).ready(function () {
+      
+        // Define the tour!
+        var tour = {
+            id: "hello-hopscotch",
+            steps: [
+              {
+                  title: "My Header",
+                  content: "This is the header of my page.",
+                  target: "header",
+                  placement: "right"
+              },
+              {
+                  title: "My content",
+                  content: "Here is where I put my content.",
+                  target: document.querySelector("#content p"),
+                  placement: "bottom"
+              }
+            ]
+        };
+
+        // Start the tour!
+        hopscotch.startTour(tour);
+
+        $('#step1').click(function () {
+            var tour1 = {
+                id: "pankaj",
+                steps: [
+                  {
+                      title: "My Header 2",
+                      content: "This is the header of my page.",
+                      target: "header",
+                      placement: "right"
+                  }
+                ]
+            };
+            hopscotch.startTour(tour1);
+        });
+    });
+    </script>
+<html>
+<head>
+    <title>My First Hopscotch Tour</title>
+</head>
+<body>
+    <a id="step1" href="#"> step1 </a>
+    <h1 id="header" style="width:20%;" >My First Hopscotch Tour</h1>
+    <div id="content">
+        <p>Content goes here...</p>
+    </div>
+
+</body>
+</html>
