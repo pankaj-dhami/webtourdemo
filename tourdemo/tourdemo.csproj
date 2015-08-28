@@ -130,9 +130,14 @@
     <Content Include="Content\Site.css" />
     <Content Include="image\sprite-green.png" />
     <Content Include="image\sprite-orange.png" />
+    <Content Include="Scripts\ajaxcombox\btn.png" />
+    <Content Include="Scripts\ajaxcombox\jquery.ajax-combobox.css" />
+    <Content Include="Scripts\ajaxcombox\jquery.ajax-combobox.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\bootstrapcombox\bootstrap-combobox.css" />
+    <Content Include="Scripts\bootstrapcombox\bootstrap-combobox.js" />
     <Content Include="Scripts\hopscotch\hopscotch.css" />
     <Content Include="Scripts\hopscotch\hopscotch.js" />
     <Content Include="Scripts\hopscotch\sample.css" />
@@ -149,6 +154,8 @@
     <Content Include="Scripts\mytour\style.css" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\selectlize\selectize.css" />
+    <Content Include="Scripts\selectlize\selectize.js" />
     <Content Include="Scripts\_references.js" />
     <Content Include="Views\Home\HtmlPage1.html" />
     <Content Include="Web.config" />
